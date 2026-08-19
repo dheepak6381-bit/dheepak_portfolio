@@ -162,6 +162,30 @@ document.addEventListener('DOMContentLoaded', () => {
             `
         },
         {
+            id: 'pharma-chain',
+            title: 'IoT Monitoring & Digital Ledger for Pharma Supply Chain',
+            role: 'Front-End & Hardware Developer',
+            duration: '2025',
+            categories: ['iot', 'hardware'],
+            tags: ['ESP32', 'DHT11', 'MQ-2', 'ThingSpeak', 'C++'],
+            image: 'assets/images/projects/project2.png',
+            shortDesc: 'IoT-based environment monitoring system for pharmaceutical logistics.',
+            details: `
+                <div class="modal__section">
+                    <h3 class="modal__section-title">Overview</h3>
+                    <p>An IoT monitoring solution to ensure the integrity of pharmaceutical supply chains by tracking temperature, humidity, and gas levels in transit.</p>
+                </div>
+                <div class="modal__section">
+                    <h3 class="modal__section-title">Technical Implementation</h3>
+                    <ul>
+                        <li>Interfaced ESP32 with DHT11 (temp/humidity), MQ-2 (gas), and pressure sensors.</li>
+                        <li>Implemented robust data logging to ThingSpeak Cloud.</li>
+                        <li>Developed a web dashboard for real-time visualization of sensor data.</li>
+                    </ul>
+                </div>
+            `
+        },
+        {
             id: 'smith-chart',
             title: 'Interactive Web-Based Smith Chart Analyzer',
             role: 'Technical Developer',
