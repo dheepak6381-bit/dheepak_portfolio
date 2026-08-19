@@ -163,7 +163,7 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 'pharma-chain',
-            title: 'IoT Monitoring & Digital Ledger for Pharma Supply Chain',
+            title: 'Pharma-Chain Hackathon',
             role: 'Front-End & Hardware Developer',
             duration: '2025',
             categories: ['iot', 'hardware'],
@@ -379,3 +379,4 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 });
+
