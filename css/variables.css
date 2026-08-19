@@ -10,20 +10,20 @@
   --bg-card: rgba(18, 19, 24, 0.8);
   --bg-card-hover: rgba(26, 28, 35, 0.9);
   --bg-glass: rgba(10, 11, 14, 0.85);
-  --bg-glass-border: rgba(0, 255, 102, 0.15);
+  --bg-glass-border: rgba(0, 242, 254, 0.15);
 
   --text-primary: #e0e6ed;
   --text-secondary: #9aa4b5;
   --text-tertiary: #6b7586;
-  --text-accent: #00ff66;
+  --text-accent: #00f2fe;
 
-  --accent-primary: #00ff66; /* PCB Green */
-  --accent-secondary: #d4af37; /* Copper/Gold */
-  --accent-tertiary: #00bfff; /* Tech Blue */
-  --accent-gradient: linear-gradient(135deg, #00ff66 0%, #00bfff 100%);
-  --accent-gradient-hover: linear-gradient(135deg, #33ff85 0%, #33ccff 100%);
-  --accent-glow: 0 0 15px rgba(0, 255, 102, 0.4), 0 0 30px rgba(0, 255, 102, 0.1);
-  --accent-glow-strong: 0 0 20px rgba(0, 255, 102, 0.6), 0 0 50px rgba(0, 255, 102, 0.3);
+  --accent-primary: #00f2fe; /* Sky Blue / Cyan */
+  --accent-secondary: #4facfe; /* Deep Blue */
+  --accent-tertiary: #0ea5e9; /* Light Azure */
+  --accent-gradient: linear-gradient(135deg, #00f2fe 0%, #4facfe 100%);
+  --accent-gradient-hover: linear-gradient(135deg, #33f5ff 0%, #6ab5fe 100%);
+  --accent-glow: 0 0 15px rgba(0, 242, 254, 0.4), 0 0 30px rgba(0, 242, 254, 0.1);
+  --accent-glow-strong: 0 0 20px rgba(0, 242, 254, 0.6), 0 0 50px rgba(0, 242, 254, 0.3);
 
   --success: #00e676;
   --error: #ff5252;
@@ -94,7 +94,7 @@
   --radius-full: 9999px;
 
   --border-thin: 1px solid var(--bg-glass-border);
-  --border-accent: 1px solid rgba(0, 255, 102, 0.3);
+  --border-accent: 1px solid rgba(0, 242, 254, 0.3);
 
   /* ---- Shadows ---- */
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.4);
@@ -102,7 +102,7 @@
   --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.6);
   --shadow-xl: 0 16px 48px rgba(0, 0, 0, 0.7);
   --shadow-card: 0 4px 12px rgba(0, 0, 0, 0.5), inset 0 1px 0 rgba(255, 255, 255, 0.05);
-  --shadow-card-hover: 0 8px 24px rgba(0, 255, 102, 0.15), inset 0 1px 0 rgba(0, 255, 102, 0.2);
+  --shadow-card-hover: 0 8px 24px rgba(0, 242, 254, 0.15), inset 0 1px 0 rgba(0, 242, 254, 0.2);
 
   /* ---- Transitions ---- */
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
@@ -148,8 +148,8 @@
   --text-secondary: var(--text-secondary-light);
   --text-tertiary: var(--text-tertiary-light);
   --shadow-card: 0 4px 24px rgba(0, 0, 0, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.8);
-  --shadow-card-hover: 0 8px 40px rgba(0, 255, 102, 0.1), inset 0 1px 0 rgba(0, 255, 102, 0.4);
-  --accent-glow: 0 0 20px rgba(0, 255, 102, 0.15);
+  --shadow-card-hover: 0 8px 40px rgba(0, 242, 254, 0.1), inset 0 1px 0 rgba(0, 242, 254, 0.4);
+  --accent-glow: 0 0 20px rgba(0, 242, 254, 0.15);
 }
 
 /* ---- Breakpoints (used via media queries) ----

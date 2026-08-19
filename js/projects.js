@@ -7,70 +7,70 @@ document.addEventListener('DOMContentLoaded', () => {
     // --- Project Data ---
     const projectsData = [
         {
-            id: 'smith-chart',
-            title: 'Data-Driven Interactive Smith Chart Visualization',
-            role: 'Technical Developer',
-            duration: 'Jan 2026',
-            categories: ['software', 'uiux'],
-            tags: ['HTML', 'CSS', 'JavaScript', 'RF Concepts', 'Data Visualization'],
+            id: 'pyrosentinel',
+            title: 'PyroSentinel – AIoT Forest Fire Early Detection System',
+            role: 'Lead Developer & Indian Patent Holder',
+            duration: '2026',
+            categories: ['iot', 'hardware'],
+            tags: ['ESP32', 'LoRa Mesh', 'PSO Algorithm', 'Sensor Fusion', 'AI'],
             image: 'assets/images/projects/project1.png',
-            shortDesc: 'Interactive web-based Smith Chart tool for Transmission Lines analysis.',
+            shortDesc: 'Patented AI-powered LoRa-based low power forest fire early detection communication system.',
             details: `
                 <div class="modal__section">
                     <h3 class="modal__section-title">Overview</h3>
-                    <p>An interactive, data-driven web visualization of the Smith Chart for analyzing transmission lines, aimed at simplifying complex RF (Radio Frequency) concepts for engineering students.</p>
+                    <p>Designed and developed an ESP32 and LoRa-based intelligent forest fire detection system with multi-sensor fusion and AI-driven fire prediction.</p>
                 </div>
                 <div class="modal__section">
-                    <h3 class="modal__section-title">Challenge & Approach</h3>
-                    <p>Traditional Smith Charts are static and difficult to interpret. This tool digitizes the experience, allowing real-time plotting of impedance and VSWR. Built entirely with HTML, CSS, and vanilla JavaScript using custom canvas drawing algorithms.</p>
+                    <h3 class="modal__section-title">Technical Implementation</h3>
+                    <p>Implemented Particle Swarm Optimization (PSO) for intelligent mesh routing, ensuring robust low-power communication over long distances in off-grid forest environments.</p>
                 </div>
                 <div class="modal__section">
                     <h3 class="modal__section-title">Impact</h3>
-                    <p>Improved conceptual understanding for students by providing immediate visual feedback on complex RF calculations.</p>
+                    <p>Officially published as an Indian Patent (App No: 202641055047 A).</p>
                 </div>
             `
         },
         {
-            id: 'pharmatrust',
-            title: 'IoT Monitoring & Digital Ledger for Pharma Supply Chain',
-            role: 'Front-End Hardware Developer',
-            duration: 'Nov/Dec 2025',
+            id: 'abhaya-lora',
+            title: 'ABHAYA: Offline LoRa-Fog Intelligent Safety Watch',
+            role: 'Embedded Systems Developer',
+            duration: '2026',
             categories: ['iot', 'hardware'],
-            tags: ['ESP32', 'DHT11', 'MQ-2', 'ThingSpeak', 'C++'],
+            tags: ['Wearable', 'LoRa', 'Fog Computing', 'PSO', 'C++'],
             image: 'assets/images/projects/project2.png',
-            shortDesc: 'IoT-based environment monitoring system for pharmaceutical logistics (PharmaTrust).',
+            shortDesc: 'Patent-filed offline wearable safety and rescue communication network.',
             details: `
                 <div class="modal__section">
                     <h3 class="modal__section-title">Overview</h3>
-                    <p>An IoT monitoring solution to ensure the integrity of pharmaceutical supply chains by tracking temperature, humidity, and gas levels in transit.</p>
+                    <p>An offline LoRa-Fog intelligent safety watch network featuring automated emergency interception for areas without cellular coverage.</p>
                 </div>
                 <div class="modal__section">
-                    <h3 class="modal__section-title">Technical Implementation</h3>
+                    <h3 class="modal__section-title">Features</h3>
                     <ul>
-                        <li>Interfaced ESP32 with DHT11 (temp/humidity), MQ-2 (gas), and pressure sensors.</li>
-                        <li>Implemented robust data logging to ThingSpeak Cloud.</li>
-                        <li>Developed a web dashboard for real-time visualization of sensor data.</li>
+                        <li>Wearable device architecture utilizing LoRa RA-02 for long-range SOS transmission.</li>
+                        <li>Fog computing nodes to process and relay critical emergency data autonomously.</li>
+                        <li>PSO-based routing for optimal automated emergency interception.</li>
                     </ul>
                 </div>
             `
         },
         {
-            id: 'robotic-teleoperation',
-            title: 'Real-Time Teleoperation Platform for Robotic Manipulator',
-            role: 'Embedded Systems & Hardware Developer',
-            duration: 'Nov/Dec 2025',
-            categories: ['hardware', 'iot'],
-            tags: ['ESP8266', 'STM32', 'Servo Motors', 'Wi-Fi', 'C++'],
+            id: 'driver-emotion',
+            title: 'Edge AI Driver Emotion Recognition & Vehicle Control',
+            role: 'AI & Embedded Developer',
+            duration: '2025',
+            categories: ['software', 'hardware', 'iot'],
+            tags: ['Python', 'DeepFace', 'OpenCV', 'ESP32', 'CAN'],
             image: 'assets/images/projects/project3.jpg',
-            shortDesc: 'Wi-Fi enabled teleoperation system for a robotic arm.',
+            shortDesc: 'Real-time pipeline classifying driver states to actively control vehicle speed.',
             details: `
                 <div class="modal__section">
                     <h3 class="modal__section-title">Overview</h3>
-                    <p>Developed a low-latency teleoperation platform allowing remote control of a robotic manipulator via Wi-Fi.</p>
+                    <p>Built a real-time pipeline to classify driver states such as Calm, Aggressive, and Fatigued using Edge AI and computer vision.</p>
                 </div>
                 <div class="modal__section">
                     <h3 class="modal__section-title">Technical Implementation</h3>
-                    <p>Utilized an STM32 Nucleo Board combined with an ESP8266 Wi-Fi module to control servo motors through a PWM driver. Built a custom web interface (HTML/CSS/JS) to send real-time control signals to the hardware.</p>
+                    <p>Interfaced ESP32 control algorithms via CAN protocol to adjust vehicle speed and initiate emergency stops upon detecting severe fatigue. Developed an Edge AI-powered live web dashboard for real-time monitoring.</p>
                 </div>
             `
         },
@@ -78,7 +78,7 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 'accent-conversion',
             title: 'UI/UX for Accent Conversion of Speaker in Audio',
             role: 'UI/UX Designer and Developer',
-            duration: 'July - Nov 2024',
+            duration: '2024',
             categories: ['uiux', 'software'],
             tags: ['Python', 'Pydub', 'Audio Processing', 'UI Design'],
             image: 'assets/images/projects/project4.jpeg',
@@ -96,45 +96,45 @@ document.addEventListener('DOMContentLoaded', () => {
         },
         {
             id: 'attendance-system',
-            title: 'IoT-Based Attendance Monitoring System',
-            role: 'System Developer and Designer',
-            duration: 'July - Nov 2024',
+            title: 'IoT-Based Biometric Attendance Monitoring System',
+            role: 'System Developer',
+            duration: '2024',
             categories: ['iot', 'hardware'],
-            tags: ['ESP32-S3', 'R307S Fingerprint', 'ThingSpeak', 'MATLAB'],
+            tags: ['ESP32-S3', 'R307S', 'ThingSpeak', 'OLED'],
             image: 'assets/images/projects/project5.jpg',
-            shortDesc: 'Biometric attendance system using ESP32-S3 and cloud integration.',
+            shortDesc: 'Fingerprint-based authentication with real-time OLED feedback and cloud logging.',
             details: `
                 <div class="modal__section">
                     <h3 class="modal__section-title">Overview</h3>
-                    <p>A smart, contactless (or biometric) attendance logging system built for educational or corporate environments.</p>
+                    <p>A smart, biometric attendance logging system built for educational or corporate environments.</p>
                 </div>
                 <div class="modal__section">
                     <h3 class="modal__section-title">Technical Implementation</h3>
                     <ul>
                         <li>Interfaced R307S Fingerprint module with ESP32-S3 LilyGO.</li>
-                        <li>Pushed attendance logs securely to ThingSpeak.</li>
-                        <li>Used MATLAB for backend data processing and report generation.</li>
+                        <li>Developed fingerprint-based authentication with real-time OLED feedback.</li>
+                        <li>Engineered a compact hardware enclosure and cloud-ready architecture for remote data logging via ThingSpeak.</li>
                     </ul>
                 </div>
             `
         },
         {
             id: 'glucose-monitor',
-            title: 'Advanced Glucose Monitoring System GUI',
-            role: 'Lead Developer & UI Designer',
-            duration: 'Dec 2024 - Apr 2025',
-            categories: ['software', 'uiux'],
-            tags: ['Python', 'PyQt6', 'Matplotlib', 'ThingSpeak'],
+            title: 'Wearable Non-Invasive Glucose Monitoring System',
+            role: 'Lead Developer',
+            duration: '2025',
+            categories: ['software', 'hardware', 'iot'],
+            tags: ['Python', 'Tkinter', 'ThingSpeak Cloud', 'Data Visualization'],
             image: 'assets/images/projects/project6.png',
-            shortDesc: 'Desktop GUI for an advanced continuous glucose monitoring system.',
+            shortDesc: 'Non-invasive glucose monitoring prototype built during Nanochip Hackathon.',
             details: `
                 <div class="modal__section">
                     <h3 class="modal__section-title">Overview</h3>
-                    <p>Developed a comprehensive desktop application using Python and PyQt6 to visualize continuous glucose monitoring data.</p>
+                    <p>Engineered a wearable-oriented non-invasive glucose monitoring prototype during a 24-hour continuous hackathon sprint.</p>
                 </div>
                 <div class="modal__section">
                     <h3 class="modal__section-title">Features</h3>
-                    <p>Integrated Matplotlib for real-time charting of glucose levels and connected to ThingSpeak for cloud data synchronization. Focused heavily on a clean, medical-grade UI/UX.</p>
+                    <p>Processed and analyzed a simulated dataset of over 2,000 glucose data points for trends. Integrated ThingSpeak cloud architecture for remote tracking and developed a desktop GUI for live feedback.</p>
                 </div>
             `
         },
@@ -142,43 +142,45 @@ document.addEventListener('DOMContentLoaded', () => {
             id: 'robotic-arm',
             title: 'Autonomous Robotic Arm for Material Handling',
             role: 'Embedded Systems Developer',
-            duration: 'Dec 2024 - Apr 2025',
+            duration: '2025',
             categories: ['hardware', 'iot'],
-            tags: ['STM32', 'SG90 Servos', 'ESP8266', 'Kinematics'],
+            tags: ['STM32', 'Embedded C', 'Motor Drivers', 'Sensors'],
             image: 'assets/images/projects/project7.jpg',
-            shortDesc: '3-DOF robotic arm for automated industrial material handling.',
+            shortDesc: 'Autonomous robotic arm designed for industrial material handling.',
             details: `
                 <div class="modal__section">
                     <h3 class="modal__section-title">Overview</h3>
-                    <p>Designed and programmed a 3-Degree-Of-Freedom (3-DOF) robotic arm to automate material handling tasks in industrial settings.</p>
+                    <p>Designed an autonomous robotic arm for transporting materials between industrial workstations.</p>
                 </div>
                 <div class="modal__section">
                     <h3 class="modal__section-title">Technical Implementation</h3>
                     <ul>
-                        <li>Controlled SG90 servo motors using an STM32 Nucleo-F103RB.</li>
-                        <li>Implemented manual control via potentiometers and autonomous control via ESP8266 Wi-Fi commands.</li>
-                        <li>Designed dual 5V/3.3V power supply units for stable operation.</li>
+                        <li>Programmed precise motion-control routines using Embedded C on STM32.</li>
+                        <li>Implemented reliable pick-and-place routines through sensor integration and motor driver coordination.</li>
                     </ul>
                 </div>
             `
         },
         {
-            id: 'sanitary-disposal',
-            title: 'Sanitary Napkin Disposal Machine',
-            role: 'Project Designer and Tester',
-            duration: 'Dec 2023 - Apr 2024',
-            categories: ['hardware'],
-            tags: ['Sensors', 'Automated Control', 'Embedded Systems'],
+            id: 'smith-chart',
+            title: 'Interactive Web-Based Smith Chart Analyzer',
+            role: 'Technical Developer',
+            duration: '2026',
+            categories: ['software', 'uiux'],
+            tags: ['HTML', 'CSS', 'JavaScript', 'RF Engineering'],
             image: 'assets/images/projects/project8.jpg',
-            shortDesc: 'Automated disposal machine aligned with Sustainable Development Goals (SDG).',
+            shortDesc: 'Web-based microwave engineering tool with built-in LLM assistance.',
             details: `
                 <div class="modal__section">
                     <h3 class="modal__section-title">Overview</h3>
-                    <p>An eco-friendly, automated sanitary napkin disposal unit designed to align with UN Sustainable Development Goals for health and sanitation.</p>
+                    <p>Developed an interactive application for RF impedance matching and high-frequency circuit analysis. A patent has been filed for this platform.</p>
                 </div>
                 <div class="modal__section">
-                    <h3 class="modal__section-title">Implementation</h3>
-                    <p>Integrated various sensors and an automated control system using embedded microcontrollers to ensure safe, touchless operation and efficient incineration/disposal.</p>
+                    <h3 class="modal__section-title">Features</h3>
+                    <ul>
+                        <li>Implemented automated VSWR and complex impedance matching calculations.</li>
+                        <li>Integrated offline LLM-assisted RF analysis features for microwave network interpretation.</li>
+                    </ul>
                 </div>
             `
         }

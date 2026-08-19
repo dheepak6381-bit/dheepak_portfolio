@@ -136,7 +136,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { text: "Mounting core hardware modules", duration: 800, result: "Interface: ESP32, STM32 [OK]" },
             { text: "Loading MATLAB analysis engine", duration: 1200, result: "Signal processing initialized. [OK]" },
             { text: "Establishing secure IoT link", duration: 1000, result: "Cloud Database (ThingSpeak) connected." },
-            { text: "Starting UI/UX rendering subsystem", duration: 900, result: "System ready. Welcome Harishkumaran." }
+            { text: "Starting UI/UX rendering subsystem", duration: 900, result: "System ready. Welcome Dheepak." }
         ];
 
         let taskIndex = 0;
@@ -146,7 +146,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Done
                 const cursorLine = document.createElement('div');
                 cursorLine.className = 'terminal__line';
-                cursorLine.innerHTML = `<span class="terminal__prompt">root@harish:~#</span><span class="terminal__cursor"></span>`;
+                cursorLine.innerHTML = `<span class="terminal__prompt">root@dheepak:~#</span><span class="terminal__cursor"></span>`;
                 terminalBody.appendChild(cursorLine);
                 terminalBody.scrollTop = terminalBody.scrollHeight;
                 return;
