@@ -186,6 +186,31 @@ document.addEventListener('DOMContentLoaded', () => {
             `
         },
         {
+            id: 'conveyor-inspection',
+            title: 'AI-Enabled Quality Inspection Conveyor System',
+            role: 'Embedded Systems & AI Developer',
+            duration: '2025',
+            categories: ['iot', 'hardware', 'software'],
+            tags: ['STM32', 'ESP32', 'Python', 'OpenCV', 'L298N', 'UART'],
+            image: 'assets/images/projects/project3.jpg',
+            shortDesc: 'Intelligent conveyor belt with AI-based damage detection and automated sorting.',
+            details: `
+                <div class="modal__section">
+                    <h3 class="modal__section-title">Overview</h3>
+                    <p>An industrial-grade smart conveyor belt system that uses STM32 motor control, ESP32 WiFi gateway, and Python-based AI vision to automatically inspect and sort products for quality defects.</p>
+                </div>
+                <div class="modal__section">
+                    <h3 class="modal__section-title">Technical Implementation</h3>
+                    <ul>
+                        <li>Programmed STM32 F103RB for precise PWM motor control via L298N dual H-bridge driver.</li>
+                        <li>Integrated IR and HC-SR04 ultrasonic sensors for real-time object detection on the belt.</li>
+                        <li>Built ESP32 WiFi gateway with UART bridge for STM32-to-server communication.</li>
+                        <li>Developed Python AI damage detection pipeline using computer vision for Pass/Fail classification.</li>
+                    </ul>
+                </div>
+            `
+        },
+        {
             id: 'smith-chart',
             title: 'Interactive Web-Based Smith Chart Analyzer',
             role: 'Technical Developer',
